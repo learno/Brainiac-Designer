@@ -59,33 +59,22 @@ namespace Vampire
 			NodeGroup events= new NodeGroup(Resources.NodeGroupEvents, NodeIcon.Event, null);
 			_nodeGroups.Add(events);
 
-			//NodeGroup selectors= new NodeGroup(Resources.NodeGroupSelectors, NodeIcon.Selector, null);
-			//_nodeGroups.Add(selectors);
-
-			//NodeGroup sequences= new NodeGroup(Resources.NodeGroupSequences, NodeIcon.Sequence, null);
-			//_nodeGroups.Add(sequences);
-
             NodeGroup composites = new NodeGroup(Resources.NodeGroupComposites, NodeIcon.Parallel, null);
             _nodeGroups.Add(composites);
 
 			// create all the action nodes
-            //actions.Items.Add(typeof(Actions.ActionBuild));
-            //actions.Items.Add(typeof(Actions.ActionFocusClosest));
-            //actions.Items.Add(typeof(Actions.ActionFollowFocus));
-            //actions.Items.Add(typeof(Actions.ActionInheritFocus));
-            //actions.Items.Add(typeof(Actions.ActionMoveTillFocusIsInRange));
-            //actions.Items.Add(typeof(Actions.ActionTransferOxygenFromFocus));
-            //actions.Items.Add(typeof(Actions.ActionTransferOxygenToFocus));
+            actions.Items.Add(typeof(Actions.Attack));
+            actions.Items.Add(typeof(Actions.ChooseFarthestSkill));
+            actions.Items.Add(typeof(Actions.ChooseRandomSkill));
             actions.Items.Add(typeof(Actions.ChooseTargetInView));
-            actions.Items.Add(typeof(Actions.ChooseTargetInView));
+            actions.Items.Add(typeof(Actions.ChooseTargetWhoAttack));
+            actions.Items.Add(typeof(Actions.EndFight));
+            actions.Items.Add(typeof(Actions.MoveToAttackRange));
 
 
 			// create all the condition nodes
-            //conditions.Items.Add(typeof(Conditions.ConditionCargoIsFull));
-            //conditions.Items.Add(typeof(Conditions.ConditionFocusIs));
-            //conditions.Items.Add(typeof(Conditions.ConditionHasLessThan));
-            //conditions.Items.Add(typeof(Conditions.ConditionHasNeedleWithLessServantsThan));
             actions.Items.Add(typeof(Conditions.HasRoleInView));
+            actions.Items.Add(typeof(Conditions.HasTarget));
             actions.Items.Add(typeof(Conditions.IsAttacked));
 
 
@@ -102,11 +91,6 @@ namespace Vampire
 			//events.Items.Add(typeof(Events.UnitBuilt));
 			//events.Items.Add(typeof(Events.UnitDestroyed));
 
-			// create all the selector nodes
-			//selectors.Items.Add(typeof(Nodes.SelectorLinear));
-
-			// create all the sequence nodes
-			//sequences.Items.Add(typeof(Nodes.SequenceLinear));
 
             // create all the composite nodes
             composites.Items.Add(typeof(Composites.Selector));
