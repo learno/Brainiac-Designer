@@ -7,9 +7,9 @@ Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Brainiac Designer Setup", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brainiac Exporter", "Brainiac Exporter\Brainiac Exporter.csproj", "{AFC4B37B-70E3-4F47-9503-48672B0081AB}"
 	ProjectSection(ProjectDependencies) = postProject
-		{F877E6E1-F596-4683-98EF-5AFBD8C091B4} = {F877E6E1-F596-4683-98EF-5AFBD8C091B4}
-		{326CC795-9695-4B8E-9EB4-5C7EA28B0344} = {326CC795-9695-4B8E-9EB4-5C7EA28B0344}
 		{9F9ED07F-875E-4180-A448-E0B33DB92BA0} = {9F9ED07F-875E-4180-A448-E0B33DB92BA0}
+		{326CC795-9695-4B8E-9EB4-5C7EA28B0344} = {326CC795-9695-4B8E-9EB4-5C7EA28B0344}
+		{F877E6E1-F596-4683-98EF-5AFBD8C091B4} = {F877E6E1-F596-4683-98EF-5AFBD8C091B4}
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design Mode", "Design Mode\Design Mode.csproj", "{F877E6E1-F596-4683-98EF-5AFBD8C091B4}"
@@ -22,7 +22,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsUI", "External\Dock
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brainiac Designer", "Brainiac Designer\Brainiac Designer.csproj", "{BEEB44C7-58E6-4B60-AE57-FB4B6C8BB43B}"
 	ProjectSection(ProjectDependencies) = postProject
-		{A5FBAC51-5382-4A88-BEC4-58B7B842EEFE} = {A5FBAC51-5382-4A88-BEC4-58B7B842EEFE}
 		{9F9ED07F-875E-4180-A448-E0B33DB92BA0} = {9F9ED07F-875E-4180-A448-E0B33DB92BA0}
 		{326CC795-9695-4B8E-9EB4-5C7EA28B0344} = {326CC795-9695-4B8E-9EB4-5C7EA28B0344}
 		{F877E6E1-F596-4683-98EF-5AFBD8C091B4} = {F877E6E1-F596-4683-98EF-5AFBD8C091B4}
@@ -34,50 +33,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{8DEE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brainiac Tests", "Brainiac Tests\Brainiac Tests.csproj", "{59819800-C695-4B22-95EC-B99F70E9B55B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlankPluginCPP", "BlankPlugin CPP\BlankPlugin CPP.vcproj", "{A5FBAC51-5382-4A88-BEC4-58B7B842EEFE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vampire", "Vampire\Vampire.csproj", "{5D65F06A-0690-454A-81DE-B7D29D166D79}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 11
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tfs07.codeplex.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Brainiac\u0020Designer\u0020Base\\Brainiac\u0020Designer\u0020Base.csproj
-		SccProjectName1 = ../../../Brainiac\u0020Designer\u0020Base
-		SccLocalPath1 = Brainiac\u0020Designer\u0020Base
-		SccProjectUniqueName2 = Brainiac\u0020Designer\u0020Setup\\Brainiac\u0020Designer\u0020Setup.vdproj
-		SccProjectName2 = ../../../Brainiac\u0020Designer\u0020Setup
-		SccLocalPath2 = Brainiac\u0020Designer\u0020Setup
-		SccProjectUniqueName3 = Brainiac\u0020Exporter\\Brainiac\u0020Exporter.csproj
-		SccProjectName3 = ../../../Brainiac\u0020Exporter
-		SccLocalPath3 = Brainiac\u0020Exporter
-		SccProjectUniqueName4 = Project\u0020Hoshimi\u0020Design\\Project\u0020Hoshimi\u0020Design.csproj
-		SccProjectTopLevelParentUniqueName4 = Brainiac\u0020Designer.sln
-		SccProjectName4 = ../../../Project\u0020Hoshimi\u0020Design
-		SccLocalPath4 = Project\u0020Hoshimi\u0020Design
-		SccProjectUniqueName5 = Brainiac\u0020Designer\\Brainiac\u0020Designer.csproj
-		SccProjectName5 = ../../../Brainiac\u0020Designer
-		SccLocalPath5 = Brainiac\u0020Designer
-		SccProjectUniqueName6 = BlankPlugin\\BlankPlugin.csproj
-		SccProjectTopLevelParentUniqueName6 = Brainiac\u0020Designer.sln
-		SccProjectName6 = ../../../BlankPlugin
-		SccLocalPath6 = BlankPlugin
-		SccProjectUniqueName7 = Design\u0020Mode\\Design\u0020Mode.csproj
-		SccProjectTopLevelParentUniqueName7 = Brainiac\u0020Designer.sln
-		SccProjectName7 = ../../../Design\u0020Mode
-		SccLocalPath7 = Design\u0020Mode
-		SccProjectUniqueName8 = Brainiac\u0020Tests\\Brainiac\u0020Tests.csproj
-		SccProjectName8 = ../../../Brainiac\u0020Tests
-		SccLocalPath8 = Brainiac\u0020Tests
-		SccProjectUniqueName9 = BlankPlugin\u0020CPP\\BlankPlugin\u0020CPP.vcproj
-		SccProjectTopLevelParentUniqueName9 = Brainiac\u0020Designer.sln
-		SccProjectName9 = BlankPlugin\u0020CPP
-		SccLocalPath9 = BlankPlugin\u0020CPP
-		SccProjectUniqueName10 = External\\DockPanel\\WinFormsUI\\WinFormsUI.csproj
-		SccProjectTopLevelParentUniqueName10 = Brainiac\u0020Designer.sln
-		SccProjectName10 = External/DockPanel/WinFormsUI
-		SccLocalPath10 = External\\DockPanel\\WinFormsUI
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -233,18 +191,18 @@ Global
 		{59819800-C695-4B22-95EC-B99F70E9B55B}.Release|Win32.Build.0 = Release|Any CPU
 		{59819800-C695-4B22-95EC-B99F70E9B55B}.Release|x64.ActiveCfg = Release|Any CPU
 		{59819800-C695-4B22-95EC-B99F70E9B55B}.Release|x64.Build.0 = Release|Any CPU
-		{A5FBAC51-5382-4A88-BEC4-58B7B842EEFE}.Debug|Any CPU.ActiveCfg = Debug|Win32
-		{A5FBAC51-5382-4A88-BEC4-58B7B842EEFE}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
-		{A5FBAC51-5382-4A88-BEC4-58B7B842EEFE}.Debug|Win32.ActiveCfg = Debug|Win32
-		{A5FBAC51-5382-4A88-BEC4-58B7B842EEFE}.Debug|Win32.Build.0 = Debug|Win32
-		{A5FBAC51-5382-4A88-BEC4-58B7B842EEFE}.Debug|x64.ActiveCfg = Debug|x64
-		{A5FBAC51-5382-4A88-BEC4-58B7B842EEFE}.Debug|x64.Build.0 = Debug|x64
-		{A5FBAC51-5382-4A88-BEC4-58B7B842EEFE}.Release|Any CPU.ActiveCfg = Release|Win32
-		{A5FBAC51-5382-4A88-BEC4-58B7B842EEFE}.Release|Mixed Platforms.ActiveCfg = Release|Win32
-		{A5FBAC51-5382-4A88-BEC4-58B7B842EEFE}.Release|Win32.ActiveCfg = Release|Win32
-		{A5FBAC51-5382-4A88-BEC4-58B7B842EEFE}.Release|Win32.Build.0 = Release|Win32
-		{A5FBAC51-5382-4A88-BEC4-58B7B842EEFE}.Release|x64.ActiveCfg = Release|x64
-		{A5FBAC51-5382-4A88-BEC4-58B7B842EEFE}.Release|x64.Build.0 = Release|x64
+		{5D65F06A-0690-454A-81DE-B7D29D166D79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D65F06A-0690-454A-81DE-B7D29D166D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D65F06A-0690-454A-81DE-B7D29D166D79}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5D65F06A-0690-454A-81DE-B7D29D166D79}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5D65F06A-0690-454A-81DE-B7D29D166D79}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{5D65F06A-0690-454A-81DE-B7D29D166D79}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5D65F06A-0690-454A-81DE-B7D29D166D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D65F06A-0690-454A-81DE-B7D29D166D79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D65F06A-0690-454A-81DE-B7D29D166D79}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5D65F06A-0690-454A-81DE-B7D29D166D79}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5D65F06A-0690-454A-81DE-B7D29D166D79}.Release|Win32.ActiveCfg = Release|Any CPU
+		{5D65F06A-0690-454A-81DE-B7D29D166D79}.Release|x64.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -253,7 +211,48 @@ Global
 		{326CC795-9695-4B8E-9EB4-5C7EA28B0344} = {8DEE9CBE-EB22-4409-936B-4C09C9E7004D}
 		{9F9ED07F-875E-4180-A448-E0B33DB92BA0} = {8DEE9CBE-EB22-4409-936B-4C09C9E7004D}
 		{F877E6E1-F596-4683-98EF-5AFBD8C091B4} = {8DEE9CBE-EB22-4409-936B-4C09C9E7004D}
-		{A5FBAC51-5382-4A88-BEC4-58B7B842EEFE} = {8DEE9CBE-EB22-4409-936B-4C09C9E7004D}
+		{5D65F06A-0690-454A-81DE-B7D29D166D79} = {8DEE9CBE-EB22-4409-936B-4C09C9E7004D}
 		{C75532C4-765B-418E-B09B-46D36B2ABDB1} = {1308CF86-BE9E-40FB-B47D-C1AA3E8B69CD}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs07.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Brainiac\u0020Designer\u0020Base\\Brainiac\u0020Designer\u0020Base.csproj
+		SccProjectName1 = ../../../Brainiac\u0020Designer\u0020Base
+		SccLocalPath1 = Brainiac\u0020Designer\u0020Base
+		SccProjectUniqueName2 = Brainiac\u0020Designer\u0020Setup\\Brainiac\u0020Designer\u0020Setup.vdproj
+		SccProjectName2 = ../../../Brainiac\u0020Designer\u0020Setup
+		SccLocalPath2 = Brainiac\u0020Designer\u0020Setup
+		SccProjectUniqueName3 = Brainiac\u0020Exporter\\Brainiac\u0020Exporter.csproj
+		SccProjectName3 = ../../../Brainiac\u0020Exporter
+		SccLocalPath3 = Brainiac\u0020Exporter
+		SccProjectUniqueName4 = Project\u0020Hoshimi\u0020Design\\Project\u0020Hoshimi\u0020Design.csproj
+		SccProjectTopLevelParentUniqueName4 = Brainiac\u0020Designer.sln
+		SccProjectName4 = ../../../Project\u0020Hoshimi\u0020Design
+		SccLocalPath4 = Project\u0020Hoshimi\u0020Design
+		SccProjectUniqueName5 = Brainiac\u0020Designer\\Brainiac\u0020Designer.csproj
+		SccProjectName5 = ../../../Brainiac\u0020Designer
+		SccLocalPath5 = Brainiac\u0020Designer
+		SccProjectUniqueName6 = BlankPlugin\\BlankPlugin.csproj
+		SccProjectTopLevelParentUniqueName6 = Brainiac\u0020Designer.sln
+		SccProjectName6 = ../../../BlankPlugin
+		SccLocalPath6 = BlankPlugin
+		SccProjectUniqueName7 = Design\u0020Mode\\Design\u0020Mode.csproj
+		SccProjectTopLevelParentUniqueName7 = Brainiac\u0020Designer.sln
+		SccProjectName7 = ../../../Design\u0020Mode
+		SccLocalPath7 = Design\u0020Mode
+		SccProjectUniqueName8 = Brainiac\u0020Tests\\Brainiac\u0020Tests.csproj
+		SccProjectName8 = ../../../Brainiac\u0020Tests
+		SccLocalPath8 = Brainiac\u0020Tests
+		SccProjectUniqueName9 = BlankPlugin\u0020CPP\\BlankPlugin\u0020CPP.vcproj
+		SccProjectTopLevelParentUniqueName9 = Brainiac\u0020Designer.sln
+		SccProjectName9 = BlankPlugin\u0020CPP
+		SccLocalPath9 = BlankPlugin\u0020CPP
+		SccProjectUniqueName10 = External\\DockPanel\\WinFormsUI\\WinFormsUI.csproj
+		SccProjectTopLevelParentUniqueName10 = Brainiac\u0020Designer.sln
+		SccProjectName10 = External/DockPanel/WinFormsUI
+		SccLocalPath10 = External\\DockPanel\\WinFormsUI
 	EndGlobalSection
 EndGlobal

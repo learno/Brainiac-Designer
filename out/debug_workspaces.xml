@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<workspaces selected="Blank Plugin">
+<workspaces selected="Vampire">
   <workspace name="Design Mode" folder="behaviors\Design Mode" export="">
     <plugin>DesignMode.dll</plugin>
   </workspace>
@@ -8,5 +8,8 @@
   </workspace>
   <workspace name="Blank Plugin" folder="behaviors\Blank Plugin" export="">
     <plugin>BlankPlugin.dll</plugin>
+  </workspace>
+  <workspace name="Vampire" folder="$DOCUMENTS\Brainiac Designer\Vampire" export="">
+    <plugin>Vampire.dll</plugin>
   </workspace>
 </workspaces>
