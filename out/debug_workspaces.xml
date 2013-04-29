@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<workspaces selected="Blank Plugin CPP">
+<workspaces selected="Blank Plugin">
   <workspace name="Design Mode" folder="behaviors\Design Mode" export="">
     <plugin>DesignMode.dll</plugin>
   </workspace>
@@ -8,8 +8,5 @@
   </workspace>
   <workspace name="Blank Plugin" folder="behaviors\Blank Plugin" export="">
     <plugin>BlankPlugin.dll</plugin>
-  </workspace>
-  <workspace name="Blank Plugin CPP" folder="behaviors\Blank Plugin CPP" export="">
-    <plugin>BlankPluginCPP.dll</plugin>
   </workspace>
 </workspaces>
