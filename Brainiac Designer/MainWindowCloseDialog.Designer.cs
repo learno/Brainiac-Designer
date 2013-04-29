@@ -55,66 +55,66 @@ namespace Brainiac.Design
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.checkedListBox = new System.Windows.Forms.CheckedListBox();
-			this.saveButton = new System.Windows.Forms.Button();
-			this.cancelButton = new System.Windows.Forms.Button();
-			this.discardButton = new System.Windows.Forms.Button();
-			this.SuspendLayout();
-			// 
-			// checkedListBox
-			// 
-			this.checkedListBox.FormattingEnabled = true;
-			this.checkedListBox.Location = new System.Drawing.Point(12, 15);
-			this.checkedListBox.Name = "checkedListBox";
-			this.checkedListBox.Size = new System.Drawing.Size(370, 214);
-			this.checkedListBox.TabIndex = 0;
-			// 
-			// saveButton
-			// 
-			this.saveButton.DialogResult = System.Windows.Forms.DialogResult.Yes;
-			this.saveButton.Location = new System.Drawing.Point(12, 239);
-			this.saveButton.Name = "saveButton";
-			this.saveButton.Size = new System.Drawing.Size(140, 23);
-			this.saveButton.TabIndex = 1;
-			this.saveButton.Text = "Save Selected Behaviors";
-			this.saveButton.UseVisualStyleBackColor = true;
-			// 
-			// cancelButton
-			// 
-			this.cancelButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-			this.cancelButton.Location = new System.Drawing.Point(327, 239);
-			this.cancelButton.Name = "cancelButton";
-			this.cancelButton.Size = new System.Drawing.Size(55, 23);
-			this.cancelButton.TabIndex = 2;
-			this.cancelButton.Text = "Cancel";
-			this.cancelButton.UseVisualStyleBackColor = true;
-			// 
-			// discardButton
-			// 
-			this.discardButton.DialogResult = System.Windows.Forms.DialogResult.No;
-			this.discardButton.Location = new System.Drawing.Point(158, 239);
-			this.discardButton.Name = "discardButton";
-			this.discardButton.Size = new System.Drawing.Size(163, 23);
-			this.discardButton.TabIndex = 3;
-			this.discardButton.Text = "Discard All Unsaved Changes";
-			this.discardButton.UseVisualStyleBackColor = true;
-			// 
-			// MainWindowCloseDialog
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(394, 274);
-			this.ControlBox = false;
-			this.Controls.Add(this.discardButton);
-			this.Controls.Add(this.cancelButton);
-			this.Controls.Add(this.saveButton);
-			this.Controls.Add(this.checkedListBox);
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-			this.Name = "MainWindowCloseDialog";
-			this.ShowInTaskbar = false;
-			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-			this.Text = "Unsaved Behaviors";
-			this.ResumeLayout(false);
+            this.checkedListBox = new System.Windows.Forms.CheckedListBox();
+            this.saveButton = new System.Windows.Forms.Button();
+            this.cancelButton = new System.Windows.Forms.Button();
+            this.discardButton = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // checkedListBox
+            // 
+            this.checkedListBox.FormattingEnabled = true;
+            this.checkedListBox.Location = new System.Drawing.Point(12, 14);
+            this.checkedListBox.Name = "checkedListBox";
+            this.checkedListBox.Size = new System.Drawing.Size(370, 196);
+            this.checkedListBox.TabIndex = 0;
+            // 
+            // saveButton
+            // 
+            this.saveButton.DialogResult = System.Windows.Forms.DialogResult.Yes;
+            this.saveButton.Location = new System.Drawing.Point(12, 221);
+            this.saveButton.Name = "saveButton";
+            this.saveButton.Size = new System.Drawing.Size(140, 21);
+            this.saveButton.TabIndex = 1;
+            this.saveButton.Text = "Save Selected Behaviors";
+            this.saveButton.UseVisualStyleBackColor = true;
+            // 
+            // cancelButton
+            // 
+            this.cancelButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.cancelButton.Location = new System.Drawing.Point(327, 221);
+            this.cancelButton.Name = "cancelButton";
+            this.cancelButton.Size = new System.Drawing.Size(55, 21);
+            this.cancelButton.TabIndex = 2;
+            this.cancelButton.Text = "Cancel";
+            this.cancelButton.UseVisualStyleBackColor = true;
+            // 
+            // discardButton
+            // 
+            this.discardButton.DialogResult = System.Windows.Forms.DialogResult.No;
+            this.discardButton.Location = new System.Drawing.Point(158, 221);
+            this.discardButton.Name = "discardButton";
+            this.discardButton.Size = new System.Drawing.Size(163, 21);
+            this.discardButton.TabIndex = 3;
+            this.discardButton.Text = "Discard All Unsaved Changes";
+            this.discardButton.UseVisualStyleBackColor = true;
+            // 
+            // MainWindowCloseDialog
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(394, 253);
+            this.ControlBox = false;
+            this.Controls.Add(this.discardButton);
+            this.Controls.Add(this.cancelButton);
+            this.Controls.Add(this.saveButton);
+            this.Controls.Add(this.checkedListBox);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Name = "MainWindowCloseDialog";
+            this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "Unsaved Behaviors";
+            this.ResumeLayout(false);
 
 		}
 

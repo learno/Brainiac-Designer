@@ -55,159 +55,159 @@ namespace Brainiac.Design
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.doneButton = new System.Windows.Forms.Button();
-			this.cancelButton = new System.Windows.Forms.Button();
-			this.label1 = new System.Windows.Forms.Label();
-			this.nameTextBox = new System.Windows.Forms.TextBox();
-			this.label2 = new System.Windows.Forms.Label();
-			this.checkedListBox = new System.Windows.Forms.CheckedListBox();
-			this.label3 = new System.Windows.Forms.Label();
-			this.behaviorFolderTextBox = new System.Windows.Forms.TextBox();
-			this.behaviorFolderButton = new System.Windows.Forms.Button();
-			this.folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
-			this.exportFolderButton = new System.Windows.Forms.Button();
-			this.exportFolderTextBox = new System.Windows.Forms.TextBox();
-			this.label4 = new System.Windows.Forms.Label();
-			this.SuspendLayout();
-			// 
-			// doneButton
-			// 
-			this.doneButton.Location = new System.Drawing.Point(15, 355);
-			this.doneButton.Name = "doneButton";
-			this.doneButton.Size = new System.Drawing.Size(75, 23);
-			this.doneButton.TabIndex = 6;
-			this.doneButton.Text = "Done";
-			this.doneButton.UseVisualStyleBackColor = true;
-			this.doneButton.Click += new System.EventHandler(this.doneButton_Click);
-			// 
-			// cancelButton
-			// 
-			this.cancelButton.Location = new System.Drawing.Point(197, 355);
-			this.cancelButton.Name = "cancelButton";
-			this.cancelButton.Size = new System.Drawing.Size(75, 23);
-			this.cancelButton.TabIndex = 7;
-			this.cancelButton.Text = "Cancel";
-			this.cancelButton.UseVisualStyleBackColor = true;
-			this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
-			// 
-			// label1
-			// 
-			this.label1.AutoSize = true;
-			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label1.Location = new System.Drawing.Point(12, 9);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(43, 13);
-			this.label1.TabIndex = 2;
-			this.label1.Text = "Name:";
-			// 
-			// nameTextBox
-			// 
-			this.nameTextBox.Location = new System.Drawing.Point(15, 25);
-			this.nameTextBox.Name = "nameTextBox";
-			this.nameTextBox.Size = new System.Drawing.Size(257, 20);
-			this.nameTextBox.TabIndex = 0;
-			// 
-			// label2
-			// 
-			this.label2.AutoSize = true;
-			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.Location = new System.Drawing.Point(12, 59);
-			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(52, 13);
-			this.label2.TabIndex = 4;
-			this.label2.Text = "Plugins:";
-			// 
-			// checkedListBox
-			// 
-			this.checkedListBox.FormattingEnabled = true;
-			this.checkedListBox.Location = new System.Drawing.Point(15, 75);
-			this.checkedListBox.Name = "checkedListBox";
-			this.checkedListBox.Size = new System.Drawing.Size(257, 94);
-			this.checkedListBox.TabIndex = 1;
-			// 
-			// label3
-			// 
-			this.label3.AutoSize = true;
-			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label3.Location = new System.Drawing.Point(12, 186);
-			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(96, 13);
-			this.label3.TabIndex = 5;
-			this.label3.Text = "Behavior Folder";
-			// 
-			// behaviorFolderTextBox
-			// 
-			this.behaviorFolderTextBox.Location = new System.Drawing.Point(15, 202);
-			this.behaviorFolderTextBox.Name = "behaviorFolderTextBox";
-			this.behaviorFolderTextBox.Size = new System.Drawing.Size(176, 20);
-			this.behaviorFolderTextBox.TabIndex = 2;
-			// 
-			// behaviorFolderButton
-			// 
-			this.behaviorFolderButton.Location = new System.Drawing.Point(197, 202);
-			this.behaviorFolderButton.Name = "behaviorFolderButton";
-			this.behaviorFolderButton.Size = new System.Drawing.Size(75, 23);
-			this.behaviorFolderButton.TabIndex = 3;
-			this.behaviorFolderButton.Text = "Browse";
-			this.behaviorFolderButton.UseVisualStyleBackColor = true;
-			this.behaviorFolderButton.Click += new System.EventHandler(this.browseButton_Click);
-			// 
-			// folderBrowserDialog
-			// 
-			this.folderBrowserDialog.Description = "Select Behavior Folder";
-			// 
-			// exportFolderButton
-			// 
-			this.exportFolderButton.Location = new System.Drawing.Point(197, 245);
-			this.exportFolderButton.Name = "exportFolderButton";
-			this.exportFolderButton.Size = new System.Drawing.Size(75, 23);
-			this.exportFolderButton.TabIndex = 5;
-			this.exportFolderButton.Text = "Browse";
-			this.exportFolderButton.UseVisualStyleBackColor = true;
-			this.exportFolderButton.Click += new System.EventHandler(this.exportFolderButton_Click);
-			// 
-			// exportFolderTextBox
-			// 
-			this.exportFolderTextBox.Location = new System.Drawing.Point(15, 245);
-			this.exportFolderTextBox.Name = "exportFolderTextBox";
-			this.exportFolderTextBox.Size = new System.Drawing.Size(176, 20);
-			this.exportFolderTextBox.TabIndex = 4;
-			// 
-			// label4
-			// 
-			this.label4.AutoSize = true;
-			this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label4.Location = new System.Drawing.Point(12, 229);
-			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(127, 13);
-			this.label4.TabIndex = 8;
-			this.label4.Text = "Default Export Folder";
-			// 
-			// EditWorkspaceDialog
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(284, 390);
-			this.ControlBox = false;
-			this.Controls.Add(this.exportFolderButton);
-			this.Controls.Add(this.exportFolderTextBox);
-			this.Controls.Add(this.label4);
-			this.Controls.Add(this.behaviorFolderButton);
-			this.Controls.Add(this.behaviorFolderTextBox);
-			this.Controls.Add(this.label3);
-			this.Controls.Add(this.checkedListBox);
-			this.Controls.Add(this.label2);
-			this.Controls.Add(this.nameTextBox);
-			this.Controls.Add(this.label1);
-			this.Controls.Add(this.cancelButton);
-			this.Controls.Add(this.doneButton);
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-			this.Name = "EditWorkspaceDialog";
-			this.ShowInTaskbar = false;
-			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-			this.Text = "Create New Workspace";
-			this.ResumeLayout(false);
-			this.PerformLayout();
+            this.doneButton = new System.Windows.Forms.Button();
+            this.cancelButton = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.nameTextBox = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.checkedListBox = new System.Windows.Forms.CheckedListBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.behaviorFolderTextBox = new System.Windows.Forms.TextBox();
+            this.behaviorFolderButton = new System.Windows.Forms.Button();
+            this.folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
+            this.exportFolderButton = new System.Windows.Forms.Button();
+            this.exportFolderTextBox = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // doneButton
+            // 
+            this.doneButton.Location = new System.Drawing.Point(15, 328);
+            this.doneButton.Name = "doneButton";
+            this.doneButton.Size = new System.Drawing.Size(75, 21);
+            this.doneButton.TabIndex = 6;
+            this.doneButton.Text = "Done";
+            this.doneButton.UseVisualStyleBackColor = true;
+            this.doneButton.Click += new System.EventHandler(this.doneButton_Click);
+            // 
+            // cancelButton
+            // 
+            this.cancelButton.Location = new System.Drawing.Point(197, 328);
+            this.cancelButton.Name = "cancelButton";
+            this.cancelButton.Size = new System.Drawing.Size(75, 21);
+            this.cancelButton.TabIndex = 7;
+            this.cancelButton.Text = "Cancel";
+            this.cancelButton.UseVisualStyleBackColor = true;
+            this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 8);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(43, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Name:";
+            // 
+            // nameTextBox
+            // 
+            this.nameTextBox.Location = new System.Drawing.Point(15, 23);
+            this.nameTextBox.Name = "nameTextBox";
+            this.nameTextBox.Size = new System.Drawing.Size(257, 21);
+            this.nameTextBox.TabIndex = 0;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(12, 54);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(52, 13);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Plugins:";
+            // 
+            // checkedListBox
+            // 
+            this.checkedListBox.FormattingEnabled = true;
+            this.checkedListBox.Location = new System.Drawing.Point(15, 69);
+            this.checkedListBox.Name = "checkedListBox";
+            this.checkedListBox.Size = new System.Drawing.Size(257, 84);
+            this.checkedListBox.TabIndex = 1;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(12, 172);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(96, 13);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Behavior Folder";
+            // 
+            // behaviorFolderTextBox
+            // 
+            this.behaviorFolderTextBox.Location = new System.Drawing.Point(15, 186);
+            this.behaviorFolderTextBox.Name = "behaviorFolderTextBox";
+            this.behaviorFolderTextBox.Size = new System.Drawing.Size(176, 21);
+            this.behaviorFolderTextBox.TabIndex = 2;
+            // 
+            // behaviorFolderButton
+            // 
+            this.behaviorFolderButton.Location = new System.Drawing.Point(197, 186);
+            this.behaviorFolderButton.Name = "behaviorFolderButton";
+            this.behaviorFolderButton.Size = new System.Drawing.Size(75, 21);
+            this.behaviorFolderButton.TabIndex = 3;
+            this.behaviorFolderButton.Text = "Browse";
+            this.behaviorFolderButton.UseVisualStyleBackColor = true;
+            this.behaviorFolderButton.Click += new System.EventHandler(this.browseButton_Click);
+            // 
+            // folderBrowserDialog
+            // 
+            this.folderBrowserDialog.Description = "Select Behavior Folder";
+            // 
+            // exportFolderButton
+            // 
+            this.exportFolderButton.Location = new System.Drawing.Point(197, 226);
+            this.exportFolderButton.Name = "exportFolderButton";
+            this.exportFolderButton.Size = new System.Drawing.Size(75, 21);
+            this.exportFolderButton.TabIndex = 5;
+            this.exportFolderButton.Text = "Browse";
+            this.exportFolderButton.UseVisualStyleBackColor = true;
+            this.exportFolderButton.Click += new System.EventHandler(this.exportFolderButton_Click);
+            // 
+            // exportFolderTextBox
+            // 
+            this.exportFolderTextBox.Location = new System.Drawing.Point(15, 226);
+            this.exportFolderTextBox.Name = "exportFolderTextBox";
+            this.exportFolderTextBox.Size = new System.Drawing.Size(176, 21);
+            this.exportFolderTextBox.TabIndex = 4;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(12, 211);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(127, 13);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Default Export Folder";
+            // 
+            // EditWorkspaceDialog
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(284, 360);
+            this.ControlBox = false;
+            this.Controls.Add(this.exportFolderButton);
+            this.Controls.Add(this.exportFolderTextBox);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.behaviorFolderButton);
+            this.Controls.Add(this.behaviorFolderTextBox);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.checkedListBox);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.nameTextBox);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.cancelButton);
+            this.Controls.Add(this.doneButton);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Name = "EditWorkspaceDialog";
+            this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "Create New Workspace";
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
 		}
 

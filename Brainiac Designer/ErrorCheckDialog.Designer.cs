@@ -55,47 +55,47 @@ namespace Brainiac.Design
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.components = new System.ComponentModel.Container();
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ErrorCheckDialog));
-			this.listView = new System.Windows.Forms.ListView();
-			this.imageList = new System.Windows.Forms.ImageList(this.components);
-			this.SuspendLayout();
-			// 
-			// listView
-			// 
-			this.listView.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.listView.LargeImageList = this.imageList;
-			this.listView.Location = new System.Drawing.Point(0, 0);
-			this.listView.MultiSelect = false;
-			this.listView.Name = "listView";
-			this.listView.Size = new System.Drawing.Size(444, 442);
-			this.listView.SmallImageList = this.imageList;
-			this.listView.TabIndex = 0;
-			this.listView.TileSize = new System.Drawing.Size(320, 30);
-			this.listView.UseCompatibleStateImageBehavior = false;
-			this.listView.View = System.Windows.Forms.View.SmallIcon;
-			this.listView.DoubleClick += new System.EventHandler(this.listView_DoubleClick);
-			// 
-			// imageList
-			// 
-			this.imageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList.ImageStream")));
-			this.imageList.TransparentColor = System.Drawing.Color.Transparent;
-			this.imageList.Images.SetKeyName(0, "info");
-			this.imageList.Images.SetKeyName(1, "warning");
-			this.imageList.Images.SetKeyName(2, "error");
-			// 
-			// ErrorCheckDialog
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(444, 442);
-			this.Controls.Add(this.listView);
-			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-			this.MaximizeBox = false;
-			this.MinimizeBox = false;
-			this.Name = "ErrorCheckDialog";
-			this.Text = "Error Check Results";
-			this.ResumeLayout(false);
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ErrorCheckDialog));
+            this.listView = new System.Windows.Forms.ListView();
+            this.imageList = new System.Windows.Forms.ImageList(this.components);
+            this.SuspendLayout();
+            // 
+            // listView
+            // 
+            this.listView.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listView.LargeImageList = this.imageList;
+            this.listView.Location = new System.Drawing.Point(0, 0);
+            this.listView.MultiSelect = false;
+            this.listView.Name = "listView";
+            this.listView.Size = new System.Drawing.Size(444, 408);
+            this.listView.SmallImageList = this.imageList;
+            this.listView.TabIndex = 0;
+            this.listView.TileSize = new System.Drawing.Size(320, 30);
+            this.listView.UseCompatibleStateImageBehavior = false;
+            this.listView.View = System.Windows.Forms.View.SmallIcon;
+            this.listView.DoubleClick += new System.EventHandler(this.listView_DoubleClick);
+            // 
+            // imageList
+            // 
+            this.imageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList.ImageStream")));
+            this.imageList.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList.Images.SetKeyName(0, "info");
+            this.imageList.Images.SetKeyName(1, "warning");
+            this.imageList.Images.SetKeyName(2, "error");
+            // 
+            // ErrorCheckDialog
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(444, 408);
+            this.Controls.Add(this.listView);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "ErrorCheckDialog";
+            this.Text = "Error Check Results";
+            this.ResumeLayout(false);
 
 		}
 

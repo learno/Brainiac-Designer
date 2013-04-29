@@ -55,29 +55,29 @@ namespace Brainiac.Design
 		/// </summary>
 		private void InitializeComponent()
 		{
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PropertiesDock));
-			this.propertyGrid = new CustomPropertyGridTest.DynamicPropertyGrid();
-			this.SuspendLayout();
-			// 
-			// propertyGrid
-			// 
-			this.propertyGrid.BackColor = System.Drawing.SystemColors.Control;
-			this.propertyGrid.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.propertyGrid.Location = new System.Drawing.Point(0, 0);
-			this.propertyGrid.Name = "propertyGrid";
-			this.propertyGrid.Size = new System.Drawing.Size(234, 414);
-			this.propertyGrid.TabIndex = 0;
-			// 
-			// PropertiesDock
-			// 
-			this.ClientSize = new System.Drawing.Size(234, 414);
-			this.Controls.Add(this.propertyGrid);
-			this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-			this.Name = "PropertiesDock";
-			this.TabText = "Properties";
-			this.Text = "Properties";
-			this.ResumeLayout(false);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PropertiesDock));
+            this.propertyGrid = new CustomPropertyGridTest.DynamicPropertyGrid();
+            this.SuspendLayout();
+            // 
+            // propertyGrid
+            // 
+            this.propertyGrid.BackColor = System.Drawing.SystemColors.Control;
+            this.propertyGrid.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.propertyGrid.Location = new System.Drawing.Point(0, 0);
+            this.propertyGrid.Name = "propertyGrid";
+            this.propertyGrid.Size = new System.Drawing.Size(234, 414);
+            this.propertyGrid.TabIndex = 0;
+            // 
+            // PropertiesDock
+            // 
+            this.ClientSize = new System.Drawing.Size(234, 414);
+            this.Controls.Add(this.propertyGrid);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "PropertiesDock";
+            this.TabText = "Properties";
+            this.Text = "Properties";
+            this.ResumeLayout(false);
 
 		}
 

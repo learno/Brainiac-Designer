@@ -55,57 +55,57 @@ namespace Brainiac.Design
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.acceptButton = new System.Windows.Forms.Button();
-			this.cancelButton = new System.Windows.Forms.Button();
-			this.nodeToolTipsCheckBox = new System.Windows.Forms.CheckBox();
-			this.SuspendLayout();
-			// 
-			// acceptButton
-			// 
-			this.acceptButton.DialogResult = System.Windows.Forms.DialogResult.OK;
-			this.acceptButton.Location = new System.Drawing.Point(12, 93);
-			this.acceptButton.Name = "acceptButton";
-			this.acceptButton.Size = new System.Drawing.Size(75, 23);
-			this.acceptButton.TabIndex = 1;
-			this.acceptButton.Text = "Accept";
-			this.acceptButton.UseVisualStyleBackColor = true;
-			this.acceptButton.Click += new System.EventHandler(this.acceptButton_Click);
-			// 
-			// cancelButton
-			// 
-			this.cancelButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-			this.cancelButton.Location = new System.Drawing.Point(197, 93);
-			this.cancelButton.Name = "cancelButton";
-			this.cancelButton.Size = new System.Drawing.Size(75, 23);
-			this.cancelButton.TabIndex = 2;
-			this.cancelButton.Text = "Cancel";
-			this.cancelButton.UseVisualStyleBackColor = true;
-			// 
-			// nodeToolTipsCheckBox
-			// 
-			this.nodeToolTipsCheckBox.AutoSize = true;
-			this.nodeToolTipsCheckBox.Location = new System.Drawing.Point(12, 12);
-			this.nodeToolTipsCheckBox.Name = "nodeToolTipsCheckBox";
-			this.nodeToolTipsCheckBox.Size = new System.Drawing.Size(122, 17);
-			this.nodeToolTipsCheckBox.TabIndex = 0;
-			this.nodeToolTipsCheckBox.Text = "Show node tool tips.";
-			this.nodeToolTipsCheckBox.UseVisualStyleBackColor = true;
-			// 
-			// SettingsDialog
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(284, 128);
-			this.ControlBox = false;
-			this.Controls.Add(this.nodeToolTipsCheckBox);
-			this.Controls.Add(this.cancelButton);
-			this.Controls.Add(this.acceptButton);
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-			this.Name = "SettingsDialog";
-			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-			this.Text = "Settings";
-			this.ResumeLayout(false);
-			this.PerformLayout();
+            this.acceptButton = new System.Windows.Forms.Button();
+            this.cancelButton = new System.Windows.Forms.Button();
+            this.nodeToolTipsCheckBox = new System.Windows.Forms.CheckBox();
+            this.SuspendLayout();
+            // 
+            // acceptButton
+            // 
+            this.acceptButton.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.acceptButton.Location = new System.Drawing.Point(12, 86);
+            this.acceptButton.Name = "acceptButton";
+            this.acceptButton.Size = new System.Drawing.Size(75, 21);
+            this.acceptButton.TabIndex = 1;
+            this.acceptButton.Text = "Accept";
+            this.acceptButton.UseVisualStyleBackColor = true;
+            this.acceptButton.Click += new System.EventHandler(this.acceptButton_Click);
+            // 
+            // cancelButton
+            // 
+            this.cancelButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.cancelButton.Location = new System.Drawing.Point(197, 86);
+            this.cancelButton.Name = "cancelButton";
+            this.cancelButton.Size = new System.Drawing.Size(75, 21);
+            this.cancelButton.TabIndex = 2;
+            this.cancelButton.Text = "Cancel";
+            this.cancelButton.UseVisualStyleBackColor = true;
+            // 
+            // nodeToolTipsCheckBox
+            // 
+            this.nodeToolTipsCheckBox.AutoSize = true;
+            this.nodeToolTipsCheckBox.Location = new System.Drawing.Point(12, 11);
+            this.nodeToolTipsCheckBox.Name = "nodeToolTipsCheckBox";
+            this.nodeToolTipsCheckBox.Size = new System.Drawing.Size(144, 16);
+            this.nodeToolTipsCheckBox.TabIndex = 0;
+            this.nodeToolTipsCheckBox.Text = "Show node tool tips.";
+            this.nodeToolTipsCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // SettingsDialog
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(284, 118);
+            this.ControlBox = false;
+            this.Controls.Add(this.nodeToolTipsCheckBox);
+            this.Controls.Add(this.cancelButton);
+            this.Controls.Add(this.acceptButton);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Name = "SettingsDialog";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "Settings";
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
 		}
 

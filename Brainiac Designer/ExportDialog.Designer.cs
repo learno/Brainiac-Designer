@@ -55,156 +55,156 @@ namespace Brainiac.Design
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.components = new System.ComponentModel.Container();
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ExportDialog));
-			this.folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
-			this.exportButton = new System.Windows.Forms.Button();
-			this.cancelButton = new System.Windows.Forms.Button();
-			this.textBox = new System.Windows.Forms.TextBox();
-			this.browseButton = new System.Windows.Forms.Button();
-			this.label1 = new System.Windows.Forms.Label();
-			this.label2 = new System.Windows.Forms.Label();
-			this.label3 = new System.Windows.Forms.Label();
-			this.formatComboBox = new System.Windows.Forms.ComboBox();
-			this.treeView = new System.Windows.Forms.TreeView();
-			this.imageList = new System.Windows.Forms.ImageList(this.components);
-			this.groupsCheckBox = new System.Windows.Forms.CheckBox();
-			this.SuspendLayout();
-			// 
-			// folderBrowserDialog
-			// 
-			this.folderBrowserDialog.Description = "Select Export Folder";
-			this.folderBrowserDialog.RootFolder = System.Environment.SpecialFolder.MyComputer;
-			// 
-			// exportButton
-			// 
-			this.exportButton.DialogResult = System.Windows.Forms.DialogResult.OK;
-			this.exportButton.Location = new System.Drawing.Point(12, 469);
-			this.exportButton.Name = "exportButton";
-			this.exportButton.Size = new System.Drawing.Size(140, 23);
-			this.exportButton.TabIndex = 5;
-			this.exportButton.Text = "Export Selected";
-			this.exportButton.UseVisualStyleBackColor = true;
-			// 
-			// cancelButton
-			// 
-			this.cancelButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-			this.cancelButton.Location = new System.Drawing.Point(212, 469);
-			this.cancelButton.Name = "cancelButton";
-			this.cancelButton.Size = new System.Drawing.Size(140, 23);
-			this.cancelButton.TabIndex = 6;
-			this.cancelButton.Text = "Cancel";
-			this.cancelButton.UseVisualStyleBackColor = true;
-			// 
-			// textBox
-			// 
-			this.textBox.Location = new System.Drawing.Point(12, 407);
-			this.textBox.Name = "textBox";
-			this.textBox.Size = new System.Drawing.Size(256, 20);
-			this.textBox.TabIndex = 2;
-			// 
-			// browseButton
-			// 
-			this.browseButton.Location = new System.Drawing.Point(274, 404);
-			this.browseButton.Name = "browseButton";
-			this.browseButton.Size = new System.Drawing.Size(75, 23);
-			this.browseButton.TabIndex = 3;
-			this.browseButton.Text = "Browse";
-			this.browseButton.UseVisualStyleBackColor = true;
-			this.browseButton.Click += new System.EventHandler(this.browseButton_Click);
-			// 
-			// label1
-			// 
-			this.label1.AutoSize = true;
-			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label1.Location = new System.Drawing.Point(9, 391);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(82, 13);
-			this.label1.TabIndex = 5;
-			this.label1.Text = "Export Folder";
-			// 
-			// label2
-			// 
-			this.label2.AutoSize = true;
-			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.Location = new System.Drawing.Point(12, 9);
-			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(122, 13);
-			this.label2.TabIndex = 6;
-			this.label2.Text = "Behaviors To Export";
-			// 
-			// label3
-			// 
-			this.label3.AutoSize = true;
-			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label3.Location = new System.Drawing.Point(9, 344);
-			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(85, 13);
-			this.label3.TabIndex = 7;
-			this.label3.Text = "Export Format";
-			// 
-			// formatComboBox
-			// 
-			this.formatComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.formatComboBox.FormattingEnabled = true;
-			this.formatComboBox.Location = new System.Drawing.Point(12, 360);
-			this.formatComboBox.Name = "formatComboBox";
-			this.formatComboBox.Size = new System.Drawing.Size(337, 21);
-			this.formatComboBox.TabIndex = 1;
-			// 
-			// treeView
-			// 
-			this.treeView.CheckBoxes = true;
-			this.treeView.ImageIndex = 0;
-			this.treeView.ImageList = this.imageList;
-			this.treeView.Location = new System.Drawing.Point(15, 25);
-			this.treeView.Name = "treeView";
-			this.treeView.SelectedImageIndex = 0;
-			this.treeView.Size = new System.Drawing.Size(337, 305);
-			this.treeView.TabIndex = 0;
-			this.treeView.AfterCheck += new System.Windows.Forms.TreeViewEventHandler(this.treeView_AfterCheck);
-			// 
-			// imageList
-			// 
-			this.imageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList.ImageStream")));
-			this.imageList.TransparentColor = System.Drawing.Color.Magenta;
-			this.imageList.Images.SetKeyName(0, "VSFolder_closed.bmp");
-			this.imageList.Images.SetKeyName(1, "DocumentHS.png");
-			// 
-			// groupsCheckBox
-			// 
-			this.groupsCheckBox.AutoSize = true;
-			this.groupsCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.groupsCheckBox.Location = new System.Drawing.Point(15, 442);
-			this.groupsCheckBox.Name = "groupsCheckBox";
-			this.groupsCheckBox.Size = new System.Drawing.Size(145, 17);
-			this.groupsCheckBox.TabIndex = 4;
-			this.groupsCheckBox.Text = "Do not export groups";
-			this.groupsCheckBox.UseVisualStyleBackColor = true;
-			// 
-			// ExportDialog
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(364, 504);
-			this.ControlBox = false;
-			this.Controls.Add(this.groupsCheckBox);
-			this.Controls.Add(this.treeView);
-			this.Controls.Add(this.formatComboBox);
-			this.Controls.Add(this.label3);
-			this.Controls.Add(this.label2);
-			this.Controls.Add(this.label1);
-			this.Controls.Add(this.browseButton);
-			this.Controls.Add(this.textBox);
-			this.Controls.Add(this.cancelButton);
-			this.Controls.Add(this.exportButton);
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-			this.Name = "ExportDialog";
-			this.ShowInTaskbar = false;
-			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-			this.Text = "Export Behaviors";
-			this.ResumeLayout(false);
-			this.PerformLayout();
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ExportDialog));
+            this.folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
+            this.exportButton = new System.Windows.Forms.Button();
+            this.cancelButton = new System.Windows.Forms.Button();
+            this.textBox = new System.Windows.Forms.TextBox();
+            this.browseButton = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.formatComboBox = new System.Windows.Forms.ComboBox();
+            this.treeView = new System.Windows.Forms.TreeView();
+            this.imageList = new System.Windows.Forms.ImageList(this.components);
+            this.groupsCheckBox = new System.Windows.Forms.CheckBox();
+            this.SuspendLayout();
+            // 
+            // folderBrowserDialog
+            // 
+            this.folderBrowserDialog.Description = "Select Export Folder";
+            this.folderBrowserDialog.RootFolder = System.Environment.SpecialFolder.MyComputer;
+            // 
+            // exportButton
+            // 
+            this.exportButton.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.exportButton.Location = new System.Drawing.Point(12, 433);
+            this.exportButton.Name = "exportButton";
+            this.exportButton.Size = new System.Drawing.Size(140, 21);
+            this.exportButton.TabIndex = 5;
+            this.exportButton.Text = "Export Selected";
+            this.exportButton.UseVisualStyleBackColor = true;
+            // 
+            // cancelButton
+            // 
+            this.cancelButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.cancelButton.Location = new System.Drawing.Point(212, 433);
+            this.cancelButton.Name = "cancelButton";
+            this.cancelButton.Size = new System.Drawing.Size(140, 21);
+            this.cancelButton.TabIndex = 6;
+            this.cancelButton.Text = "Cancel";
+            this.cancelButton.UseVisualStyleBackColor = true;
+            // 
+            // textBox
+            // 
+            this.textBox.Location = new System.Drawing.Point(12, 376);
+            this.textBox.Name = "textBox";
+            this.textBox.Size = new System.Drawing.Size(256, 21);
+            this.textBox.TabIndex = 2;
+            // 
+            // browseButton
+            // 
+            this.browseButton.Location = new System.Drawing.Point(274, 373);
+            this.browseButton.Name = "browseButton";
+            this.browseButton.Size = new System.Drawing.Size(75, 21);
+            this.browseButton.TabIndex = 3;
+            this.browseButton.Text = "Browse";
+            this.browseButton.UseVisualStyleBackColor = true;
+            this.browseButton.Click += new System.EventHandler(this.browseButton_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(9, 361);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(82, 13);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Export Folder";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(12, 8);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(122, 13);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Behaviors To Export";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(9, 318);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(85, 13);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Export Format";
+            // 
+            // formatComboBox
+            // 
+            this.formatComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.formatComboBox.FormattingEnabled = true;
+            this.formatComboBox.Location = new System.Drawing.Point(12, 332);
+            this.formatComboBox.Name = "formatComboBox";
+            this.formatComboBox.Size = new System.Drawing.Size(337, 20);
+            this.formatComboBox.TabIndex = 1;
+            // 
+            // treeView
+            // 
+            this.treeView.CheckBoxes = true;
+            this.treeView.ImageIndex = 0;
+            this.treeView.ImageList = this.imageList;
+            this.treeView.Location = new System.Drawing.Point(15, 23);
+            this.treeView.Name = "treeView";
+            this.treeView.SelectedImageIndex = 0;
+            this.treeView.Size = new System.Drawing.Size(337, 282);
+            this.treeView.TabIndex = 0;
+            this.treeView.AfterCheck += new System.Windows.Forms.TreeViewEventHandler(this.treeView_AfterCheck);
+            // 
+            // imageList
+            // 
+            this.imageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList.ImageStream")));
+            this.imageList.TransparentColor = System.Drawing.Color.Magenta;
+            this.imageList.Images.SetKeyName(0, "VSFolder_closed.bmp");
+            this.imageList.Images.SetKeyName(1, "DocumentHS.png");
+            // 
+            // groupsCheckBox
+            // 
+            this.groupsCheckBox.AutoSize = true;
+            this.groupsCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupsCheckBox.Location = new System.Drawing.Point(15, 408);
+            this.groupsCheckBox.Name = "groupsCheckBox";
+            this.groupsCheckBox.Size = new System.Drawing.Size(145, 17);
+            this.groupsCheckBox.TabIndex = 4;
+            this.groupsCheckBox.Text = "Do not export groups";
+            this.groupsCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // ExportDialog
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(364, 465);
+            this.ControlBox = false;
+            this.Controls.Add(this.groupsCheckBox);
+            this.Controls.Add(this.treeView);
+            this.Controls.Add(this.formatComboBox);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.browseButton);
+            this.Controls.Add(this.textBox);
+            this.Controls.Add(this.cancelButton);
+            this.Controls.Add(this.exportButton);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Name = "ExportDialog";
+            this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "Export Behaviors";
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
 		}
 
