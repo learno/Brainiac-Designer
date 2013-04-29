@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<behavior>
+  <node class="Brainiac.Design.Nodes.Behavior" DebugName="" ExportType="Behavior">
+    <node class="ProjectHoshimi.Nodes.SequenceLinear" DebugName="" ExportType="SequenceLinear">
+      <node class="ProjectHoshimi.Nodes.SelectorLinear" DebugName="" ExportType="SelectorLinear">
+        <node class="ProjectHoshimi.Nodes.ConditionFocusIs" DebugName="" ExportType="ConditionFocusIs" TreatAsException="false" FocusUnitType="HoshimiPointWithNeedle" />
+        <node class="ProjectHoshimi.Nodes.ActionFocusClosest" DebugName="" ExportType="ActionFocusClosest" FocusUnitType="HoshimiPointWithoutNeedle" />
+      </node>
+      <node class="ProjectHoshimi.Nodes.ActionMoveTillFocusIsInRange" DebugName="" ExportType="ActionMoveTillFocusIsInRange" />
+      <node class="ProjectHoshimi.Nodes.ActionBuild" DebugName="" ExportType="ActionBuild" UnitToBuild="Needle" Type="Needle" />
+    </node>
+  </node>
+</behavior>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<workspaces selected="Blank Plugin CPP">
+  <workspace name="Design Mode" folder="behaviors\Design Mode" export="">
+    <plugin>DesignMode.dll</plugin>
+  </workspace>
+  <workspace name="Project Hoshimi" folder="behaviors\Project Hoshimi" export="exported\Project Hoshimi">
+    <plugin>ProjectHoshimi.dll</plugin>
+  </workspace>
+  <workspace name="Blank Plugin" folder="behaviors\Blank Plugin" export="">
+    <plugin>BlankPlugin.dll</plugin>
+  </workspace>
+  <workspace name="Blank Plugin CPP" folder="behaviors\Blank Plugin CPP" export="">
+    <plugin>BlankPluginCPP.dll</plugin>
+  </workspace>
+</workspaces>

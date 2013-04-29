@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Behavior>
+  <Node Class="Brainiac.Design.Nodes.Behavior">
+    <Connector Identifier="GenericChildren">
+      <Node Class="ProjectHoshimi.Nodes.DecoratorLoop" Count="-1">
+        <Connector Identifier="GenericChildren">
+          <Node Class="ProjectHoshimi.Nodes.SelectorLinear" UnitType="Transporter:2" BlockEvent="False">
+            <Event Class="ProjectHoshimi.Events.UnitDestroyed" />
+            <Connector Identifier="GenericChildren">
+              <Node Class="Brainiac.Design.Nodes.ReferencedBehavior" ReferenceFilename="Build Transporter.xml" UnitType="Transporter:2" BlockEvent="True">
+                <Event Class="ProjectHoshimi.Events.UnitDestroyed" />
+              </Node>
+              <Node Class="Brainiac.Design.Nodes.ReferencedBehavior" ReferenceFilename="Build Needle.xml" />
+            </Connector>
+          </Node>
+        </Connector>
+      </Node>
+    </Connector>
+  </Node>
+</Behavior>

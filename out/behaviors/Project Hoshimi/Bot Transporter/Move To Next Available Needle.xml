@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Behavior>
+  <Node Class="Brainiac.Design.Nodes.Behavior">
+    <Connector Identifier="GenericChildren">
+      <Node Class="ProjectHoshimi.Nodes.SequenceLinear">
+        <Connector Identifier="GenericChildren">
+          <Node Class="ProjectHoshimi.Nodes.ActionFocusClosest" UnitType="BotAI:0" />
+          <Node Class="ProjectHoshimi.Nodes.ActionInheritFocus" />
+          <Node Class="ProjectHoshimi.Nodes.ActionMoveTillFocusIsInRange" />
+        </Connector>
+      </Node>
+    </Connector>
+  </Node>
+</Behavior>

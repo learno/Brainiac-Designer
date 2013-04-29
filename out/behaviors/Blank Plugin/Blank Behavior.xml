@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Behavior>
+  <Node Class="Brainiac.Design.Nodes.Behavior">
+    <Connector Identifier="GenericChildren">
+      <Node Class="BlankPlugin.Nodes.ActionBlankNode" />
+    </Connector>
+  </Node>
+</Behavior>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Behavior>
+  <Node Class="Brainiac.Design.Nodes.Behavior">
+    <Connector Identifier="GenericChildren">
+      <Node Class="ProjectHoshimi.Nodes.SequenceLinear">
+        <Connector Identifier="GenericChildren">
+          <Node Class="ProjectHoshimi.Nodes.SelectorLinear">
+            <Comment Background="Blue:1" Text="Make sure we have focused a needle." />
+            <Connector Identifier="GenericChildren">
+              <Node Class="ProjectHoshimi.Nodes.ConditionFocusIs" UnitType="Needle:0" />
+              <Node Class="ProjectHoshimi.Nodes.ActionFocusClosest" UnitType="Needle:0" />
+            </Connector>
+          </Node>
+          <Node Class="ProjectHoshimi.Nodes.ActionMoveTillFocusIsInRange" />
+          <Node Class="ProjectHoshimi.Nodes.ActionBuild" UnitToBuild="Needle:0" />
+        </Connector>
+      </Node>
+    </Connector>
+  </Node>
+</Behavior>

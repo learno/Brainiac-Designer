@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Behavior>
+  <Node Class="Brainiac.Design.Nodes.Behavior">
+    <Connector Identifier="GenericChildren">
+      <Node Class="ProjectHoshimi.Nodes.DecoratorLoop" Count="-1">
+        <Connector Identifier="GenericChildren">
+          <Node Class="ProjectHoshimi.Nodes.SelectorLinear" UnitType="Needle:0" BlockEvent="False">
+            <Event Class="ProjectHoshimi.Events.FocusDestroyed" />
+            <Event Class="ProjectHoshimi.Events.UnitBuilt" />
+            <Connector Identifier="GenericChildren">
+              <Node Class="ProjectHoshimi.Nodes.SelectorLinear" UnitType="Needle:0" BlockEvent="True">
+                <Event Class="ProjectHoshimi.Events.UnitBuilt" />
+                <Connector Identifier="GenericChildren">
+                  <Node Class="Brainiac.Design.Nodes.ReferencedBehavior" ReferenceFilename="Supply Needle.xml" />
+                  <Node Class="Brainiac.Design.Nodes.ReferencedBehavior" ReferenceFilename="Collect Oxygen.xml" />
+                </Connector>
+              </Node>
+              <Node Class="Brainiac.Design.Nodes.ReferencedBehavior" ReferenceFilename="Move To Next Available Needle.xml">
+                <Comment Background="Orange:5" Text="If we are idle we move to the next needle which will be created to save time." />
+              </Node>
+            </Connector>
+          </Node>
+        </Connector>
+      </Node>
+    </Connector>
+  </Node>
+</Behavior>

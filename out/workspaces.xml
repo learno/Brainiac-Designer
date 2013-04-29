@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<workspaces selected="Project Hoshimi">
+  <workspace name="Project Hoshimi" folder="$DOCUMENTS\Brainiac Designer\Behaviors\Project Hoshimi">
+    <plugin>ProjectHoshimi.dll</plugin>
+  </workspace>
+  <workspace name="Design Mode" folder="$DOCUMENTS\Brainiac Designer\Behaviors\Design Mode">
+    <plugin>DesignMode.dll</plugin>
+  </workspace>
+</workspaces>
